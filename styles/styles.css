@@ -45,6 +45,7 @@ outline: solid;
     height: 100%;
     float: left;
     outline: solid;
+    overflow-y: auto;
 }
 
 .right_left_side
