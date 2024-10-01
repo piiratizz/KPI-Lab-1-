@@ -111,3 +111,27 @@ outline: solid;
     max-height: 100%;
     height: auto;
 }
+
+.primary_img
+{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+.primary_map
+{
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+@media (max-width: 1000px) 
+{
+    .primary_map
+    {
+        display: none;
+    }
+}
