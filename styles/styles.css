@@ -8,6 +8,11 @@ vertical-align: top;
 outline: solid;
 }
 
+*{
+    margin-left:0;
+    margin-right: 0;
+}
+
 .nav_panel
 {
     background-color: rgb(255, 255, 255);
@@ -26,8 +31,8 @@ outline: solid;
     height: 30px;
     position: relative;
     top: 60px;
-    right: 100px;
-    float: right;
+    left: 80%;
+    text-align: center;
     font-size: 14px;
     outline: solid;
 }
@@ -38,6 +43,7 @@ outline: solid;
     outline: solid;
 }
 
+
 .left_side
 {
     background-color: rgb(241, 255, 164);
@@ -45,7 +51,6 @@ outline: solid;
     height: 100%;
     float: left;
     outline: solid;
-    overflow-y: auto;
 }
 
 .right_left_side
@@ -58,15 +63,6 @@ outline: solid;
 }
 
 
-
-.up_side
-{
-    background-color: rgb(241, 255, 164);
-    height: 10%;
-    width: 70%;
-    float: right;
-    outline: solid;
-}
 
 .right_bottom_side
 {
@@ -85,6 +81,16 @@ outline: solid;
     height: 90%;
     float: left;
     position: relative;
+    outline: solid;
+}
+
+.up_side
+{
+    background-color: rgb(241, 255, 164);
+    height: 10%;
+    width: 70%;
+    float: right;
+    outline: solid;
 }
 
 .right_side
@@ -102,6 +108,7 @@ outline: solid;
     background-color: rgb(111, 159, 248);
     height: 200px;
     outline: solid;
+    margin-top: -15px;
 }
 
 .m8
