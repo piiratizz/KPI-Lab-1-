@@ -11,6 +11,8 @@ outline: solid;
 *{
     margin-left:0;
     margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .nav_panel
@@ -108,7 +110,7 @@ outline: solid;
     background-color: rgb(111, 159, 248);
     height: 200px;
     outline: solid;
-    margin-top: -15px;
+    
 }
 
 .m8
