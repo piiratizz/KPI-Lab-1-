@@ -45,14 +45,13 @@
 {
     background-color: rgb(197, 255, 164);
     width: 30%;
-    float: left;
+    overflow-y: auto;
 }
 
 .right_left_side
 {
     background-color: rgb(197, 255, 164);
     width: 30%;
-    float: right;
 }
 
 
