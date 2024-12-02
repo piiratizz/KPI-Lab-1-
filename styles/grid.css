@@ -12,27 +12,24 @@
     background-color: rgb(255, 255, 255);
     width: 100px;
     height: 30px;
-    position: relative;
-    top: 60px;
-    left: 100px;
     outline: solid;
 }
 
 .nav_buttons
 {
     display: grid;
-    grid-template-columns: repeat(5, 10%);
+    grid-template-columns: repeat(6, 15vw);
     justify-content: center;
+    align-items: center;
 }
 
 .bottom_panel
 {
     background-color: rgb(255, 255, 255);
+    grid-column: 9;
+    grid-row: 2;
     width: 100px;
     height: 30px;
-    position: relative;
-    top: 60px;
-    left: 80%;
     text-align: center;
     font-size: 14px;
     outline: solid;
@@ -67,6 +64,7 @@ body
     grid-row-end: 6;
     background-color: rgb(241, 255, 164);
     float: right;
+    overflow-y: auto; 
 }
 
 
@@ -76,6 +74,7 @@ body
     grid-row: 5;
     grid-column-start: 2;
     grid-column-end: 5;
+    overflow-y: auto; 
 }
 
 .right_center
@@ -91,6 +90,7 @@ body
     grid-row: 1;
     grid-column: span 10;
     overflow-y: auto;
+    
 }
 
 .right_side
@@ -102,17 +102,26 @@ body
     float: right;
 }
 
-
-.bottom, .nav
-{    
+.nav
+{
     display: grid;
     grid-template-columns: 2fr;
     background-color: rgb(111, 159, 248);
     height: 20vh;
     width: 100%;
     text-align: center;
-    outline: solid;
     background-color: rgb(111, 159, 248);
+    outline: solid;
+}
+
+.bottom
+{    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: rgb(111, 159, 248);
+    height: 20vh;
+    width: 100%;
+    text-align: center;
     outline: solid;
 }
 

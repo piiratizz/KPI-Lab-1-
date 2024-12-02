@@ -1,4 +1,9 @@
-
+.main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 *{
     margin-left:0;
@@ -25,12 +30,10 @@
     background-color: rgb(255, 255, 255);
     width: 100px;
     height: 30px;
-    position: relative;
-    top: 60px;
-    left: 80%;
     text-align: center;
     font-size: 14px;
     outline: solid;
+    margin-right: 5%;
 }
 
 .content
@@ -52,6 +55,7 @@
 {
     background-color: rgb(197, 255, 164);
     width: 30%;
+    overflow-y: auto; 
 }
 
 
@@ -61,6 +65,7 @@
     background-color: rgb(241, 255, 164);
     height: 10%;
     width: 100%;
+    overflow-y: auto; 
 }
 
 .right_center_left
@@ -88,6 +93,7 @@
 {
     background-color: rgb(241, 255, 164);
     height: 10%;
+    overflow-y: auto; 
 }
 
 .right_side
@@ -99,13 +105,24 @@
     float: right;
 }
 
-
-.bottom, .nav
+.nav
 {
     background-color: rgb(111, 159, 248);
     height: 25vh;
     width: 100%;
     text-align: center;
+}
+
+.bottom
+{
+    background-color: rgb(111, 159, 248);
+    height: 25vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
 }
 
 .m8
