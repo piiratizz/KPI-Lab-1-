@@ -1,0 +1,208 @@
+html {
+    height: 100%;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: "Unna";
+    background-color: #111;
+    height: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: 5%;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray;
+    margin-right: 25%;
+  }
+  
+  
+  .search-bar input {
+    color: #000;
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    flex: 1;
+  }
+  
+  .search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+  }
+  
+  .search-bar button img {
+    height: 2rem;
+    width: auto;
+  }
+  
+  .main-section {
+    background-color: #e8f3f8;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #ffffff;
+    height: 85%;
+  }
+  
+  .line
+  {
+    width: 100%;
+    height: 150px;
+    background-color: #d39a2f;
+    position: fixed;
+    top: 350px;
+    right: 1;
+    z-index: 0;
+  }
+
+  .main-section h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #6783be;
+  }
+  
+  .main-section p {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+    color: #202020;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    cursor: pointer;
+    height: 50%;
+  }
+  
+  .card {
+    background: #ffffff;
+    padding: 2rem;
+    width: 250px;
+    transition: transform 0.3s;
+    z-index: 1;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    margin-bottom: 1rem;
+    height: 6rem;
+    width: auto;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #6783be;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    color: #7c7c7c;
+  }
+  
+  .card button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: #d39a2f;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .card button h5
+  {
+    font-size: 1rem;
+    font-family: "Unna";
+    color: #ffffff;
+  }
+
+  .card button:hover {
+    background-color: #c2183d;
+  }
+  
+  footer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #222;
+    color: #ebebeb;
+    text-align: center;
+    height: 10%;
+  }
+  
+  footer p {
+    margin-bottom: 0.5rem;
+  }
+  
+
+  .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 40%;
+  }
+  
+  .menu-icon div {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+  
+
+  @media (max-width: 865px){
+    .body {
+      overflow: auto;
+    }
+  
+    header {
+      padding: 0.5rem;
+      height: auto;
+    }
+
+    .main-section {
+      height: 100vh;
+    }
+  }
+
+  @media (max-width: 580px)
+  {
+    .main-section {
+        height: 140vh;
+      }
+  }
+
+  @media (max-width: 520px)
+  {
+    .line
+    {
+        top: 450px;
+    }
+  }
